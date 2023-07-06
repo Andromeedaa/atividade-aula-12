@@ -1,0 +1,163 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+hr{
+    /* color: var(--bg-color-2);
+    width: 200px;
+    height: 20px;
+    /* margin-bottom: 70px; */
+    /* border: none; */
+}
+
+:root{
+    --bg-color-1: #EDEDED;
+    --bg-color-2: #FFFFFF;
+    --bg-color-3: #4992FF;
+    --bg-color-4: #000000;
+    --bg-color-5: #5A5757;
+    --margin-top: 100px
+}
+
+.my-title{
+    color: var(--bg-color-2);
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.my-title1{
+    color: var(--bg-color-4);
+    font-weight: 900;
+    text-align: center;
+
+}
+
+.my-title2{
+    color: var(--bg-color-2);
+    font-weight: 700;
+    text-align: left;
+    padding-left: 6px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+
+}
+
+.my-title3{
+    color: var(--bg-color-4);
+    /* font-weight: 00; */
+    font-size: 1.15rem;
+    text-align: left;
+
+}
+
+.positon{
+    padding-top: 12px;
+    margin-left: 15px;
+}
+
+.primary-font-color{
+    color: var(--bg-color-2);
+    text-align: center;
+    font-size: 13px;
+}
+
+.secondary-font-color{
+    color: var(--bg-color-2);
+    text-align: center;
+    font-size: 13px;
+}
+
+.bg-color{
+    background-color: var(--bg-color-3);
+}
+
+.bg-color2{
+    background-color: var(--bg-color-2);
+    border-radius: 10px;
+    margin: 10px 0.5px;
+    padding-top: 20px;
+}
+.user-photo{
+    width: 105px;
+    height: 105px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.user-photo2{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+}
+
+.font-size{
+    font-size: 14.5px;
+}
+
+.pad1{
+    position: relative;
+    right: 109px;
+
+}
+
+.my-button{
+    background-color: var(--bg-color-1);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0 15px;
+    margin-bottom: 39px;
+    border-radius: 21px;
+    height: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.my-button1{ 
+    background-color: var(--bg-color-1);
+    color: var(--bg-color-3);
+    font-weight: 400;
+    margin: 0 15px;
+    border-radius: 21px;
+}
+
+.my-text{
+    text-align: justify;
+    color: var(--bg-color-5);
+}
+
+.my-text1{
+    text-align: justify;
+    color: var(--bg-color-2);
+    margin: 15px;
+    font-size: 14px;
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+}
+
+@media only screen and (min-width: 780px) {
+   
+    .my-text{
+        text-align: center;
+    }
+    .my-button{
+        background-color: var(--bg-color-1);
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        margin: 0 300px;
+        margin-bottom: 39px;
+        border-radius: 21px;
+        height: 50px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .my-title3{
+        color: var(--bg-color-4);
+        /* font-weight: 00; */
+        font-size: 1.15rem;
+        text-align: left;
+        
+    
+    }
+}
+    
